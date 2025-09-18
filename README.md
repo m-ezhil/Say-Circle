@@ -70,10 +70,10 @@ Say Circle is a simple and modern **social media web application** that allows u
 
 ## 🎨 UI Screenshots
 
-![Login Image](static\screenshots\login.png)
-![Home Page Image](static\screenshots\home.png)
-![Add Post Image](static\screenshots\add_post.png)
-![Edit Post Image](static\screenshots\edit_post.png)
+![Login Image](static/screenshots/login.png)
+![Home Page Image](static/screenshots/home.png)
+![Add Post Image](static/screenshots/add_post.png)
+![Edit Post Image](static/screenshots/edit_post.png)
 
 ---
 
