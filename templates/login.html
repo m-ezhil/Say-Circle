@@ -1,0 +1,18 @@
+{% extends 'base.html' %} {% block title %}Login{% endblock %} {% block
+content%}
+<div class="row px-2">
+  <form class="form col-10 col-md-4 mx-auto mt-2" id="login-form">
+    <h2 class="text-center mt-2">Login</h2> <br />
+    <label class="form-label" for="email">Email</label> <br />
+    <input class="form-control" type="email" name="email" id="email" /> <br />
+
+    <label class="form-label" for="password">Password</label> <br />
+    <input class="form-control" type="password" name="password" id="password" /> <br />
+
+    <button type="submit" class="btn btn-primary form-control mt-2">Login</button> <br />
+  </form>
+  <div class="text-center mt-2">
+    <p>If you don't have an account? <a href="{{url_for('view.signup')}}">Signup</a></p>
+  </div>
+</div>
+{% endblock %}

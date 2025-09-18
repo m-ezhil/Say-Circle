@@ -1,0 +1,23 @@
+{% extends "base.html" %} {% block title %}Sign up{% endblock %} {% block
+content %}
+
+<div class="row px-2">
+  <form class="form col-10 col-md-5 col-lg-4 mx-auto mt-3" id="signup-form">
+    <h2 class="text-center mt-3">Create New Account</h2>
+    <br />
+    <label class="form-label" for="username">User Name</label> <br />
+    <input class="form-control" type="text" name="username" id="username" />
+    <br />
+    <label class="form-label" for="email">Email</label> <br />
+    <input class="form-control" type="text" name="email" id="email" /> <br />
+    <label class="form-label" for="password">Password</label> <br />
+    <input class="form-control" type="password" name="password" id="password" />
+    <br />
+    <input type="submit" class="form-control btn btn-primary" value="Create Account" />
+  </form>
+  <div class="text-center mt-2">
+    <p>Already have account? <a href="{{url_for('view.login')}}">Log In</a></p>
+  </div>
+</div>
+
+{% endblock %}
