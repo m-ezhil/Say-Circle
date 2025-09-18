@@ -27,7 +27,7 @@ Say Circle is a simple and modern **social media web application** that allows u
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/say-circle.git
+   git clone https://github.com/m-ezhil/Say-Circle.git
    cd say-circle
    ```
 
